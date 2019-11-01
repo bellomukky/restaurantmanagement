@@ -1,0 +1,24 @@
+ body {
+            background-color: #eeeeee;
+        }
+
+
+        .main-container {
+            min-height: -webkit-calc(100% - 162px);
+            min-height: -moz-calc(100% - 162px);
+            min-height: calc(100% - 162px);
+            padding: 30px 0;
+        }
+
+      
+       
+
+        
+
+        .adds-wrapper {
+            background: #fff;
+            clear: both;
+            height: auto;
+            width: 100%;
+        }
+        

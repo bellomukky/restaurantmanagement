@@ -1,0 +1,22 @@
+.intro{
+    margin-top:70px;
+    height:450px;
+    color:#fff !important;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+    url('../images/bg2.jpg') no-repeat center !important;
+}
+
+.hw100 {
+  height: 100%;
+  width: 100%; 
+}
+
+.dtable{
+  display: table; 
+}
+
+.dtable-cell {
+  display: table-cell;
+  vertical-align: middle; 
+}
+

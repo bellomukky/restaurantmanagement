@@ -1,0 +1,42 @@
+  .form-control{
+            border:2px solid #fff;
+            background-color: transparent;
+            border-radius: 20px;
+            line-height: 30px;
+            color:#fff !important;
+        }
+
+        .form-control::-webkit-input-placeholder{
+            color:#fff !important;
+            opacity:0.7 !important;
+        }
+        .form-control:focus{
+            border:3px solid #fff;
+            box-shadow: none;
+             background-color: transparent;
+        }
+
+        header {
+            height: 100vh;
+            background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+                url("../images/bg8.jpg") no-repeat center center !important;
+            background-size: cover cover !important;
+            vertical-align: middle !important;
+        }
+
+        #auth-form {
+           
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)) !important;
+            padding: 15px 20px;
+            color: #fff;
+        }
+
+      
+
+        .banner{
+            background-size: contain contain !important;
+            /* -webkit-baackground-size:100% 100% !important;
+            -o-background-size:100% 100% !important; */
+            background-position: center center;
+            height:100vh;  
+        }

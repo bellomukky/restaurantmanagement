@@ -1,0 +1,143 @@
+body {
+            background-color: #eeeeee;
+        }
+
+        .search-row-wrapper {
+            margin-top: 115px;
+
+            background-position: center;
+            background-size: cover;
+            height: auto;
+            -webkit-transition: all 400ms cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+            -moz-transition: all 400ms cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+            -o-transition: all 400ms cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+            transition: all 400ms cubic-bezier(0.25, 0.1, 0.25, 1) 0s;
+            width: 100%;
+        }
+
+        .search-row-wrapper .inner {
+            padding: 50px 0;
+        }
+
+       
+
+        .main-container {
+            min-height: -webkit-calc(100% - 162px);
+            min-height: -moz-calc(100% - 162px);
+            min-height: calc(100% - 162px);
+            padding: 30px 0;
+        }
+
+       
+       
+
+        .adds-wrapper {
+            background: #fff;
+            clear: both;
+            height: auto;
+            width: 100%;
+        }
+
+       
+
+        #cart-card
+        {
+          padding:0;
+        }
+
+        #cart-card .table-responsive .table thead{
+  background: #f8f8f8;
+    position: relative;
+    border-bottom: 1px solid #ddd;
+        }
+
+        .table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+@media only screen and (max-width: 768px){
+  
+
+table.table td {
+    padding-top: 1.5rem;
+    padding-bottom: .4rem;
+}
+
+td:nth-of-type(2) {
+    position: absolute;
+    border: none !important;
+}
+table, thead, tbody, th, td, tr {
+     display: block;
+    text-align: center;
+}
+
+thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+td:nth-of-type(1):before {
+    content: "Food";
+    font-weight: 400;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+td:nth-of-type(3):before {
+    content: "Price";
+ display:block;
+    font-weight: 400;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+td:nth-of-type(4):before {
+    content: "Qty";
+    font-weight: 400;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+/* td:nth-of-type(4) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1.9rem !important;
+} */
+
+td:nth-of-type(5):before {
+    content: "Amount";
+    display:block;
+    font-weight: 400;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+
+}
+
+table.table thead th {
+    border-top: none;
+}
+
+.font-weight-bold {
+    font-weight: 600!important;
+}
+
+.card .card-body h5, .card .card-body h6 {
+    font-weight: 400;
+}
+table th {
+    font-size: .9rem;
+    font-weight: 400;
+}
+
+.product-table tr .img-fluid
+{
+    max-height:100px !important;
+}
